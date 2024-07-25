@@ -1,8 +1,7 @@
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
-import Login from "@/components/ui/Login";
-import RightFrame from "@/components/ui/rightFrame";
+
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
@@ -18,8 +17,10 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={inter.className}>
+     
         {children}
-               <RightFrame />  
+             
+      
       </body>
     </html>
   );

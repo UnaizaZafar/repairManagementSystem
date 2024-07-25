@@ -19,6 +19,18 @@
 body {
   color: rgb(var(--foreground-rgb));
   padding: 10px;
-  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  padding: 0px;
+  margin: 0px;
 }
 
+@layer base {
+  @font-face {
+    font-family: "Manrope";
+    src: url(/fonts/Manrope) format("ttf");
+    font-family: "IBM";
+    src: url(/fonts/IBM) format("ttf");
+
+  }
+ 
+}
