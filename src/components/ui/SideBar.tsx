@@ -5,15 +5,15 @@ import Link from "next/link";
 const SideBar = () => {
   return (
     <>
-      <div>
+      
         <div className="bg-[#18181B] flex-col flex items-center p-10  w-[260px] h-[1161px]">
-          <div className="p-3">
+          <div className="p-3 mb-14">
             <Image src={logo} width={50} height={44} alt="Logo" />
           </div>
           <div className="text-white p-1 w-56 h-10 font-[Manrope] font-normal text">
             <ul className="grid gap-5 h-10">
               <li className=" h-10 active:bg-[#3F3F46] active:h-10 active:rounded-lg active:w-56 p-2 ">
-                {" "}
+                { " "} 
                 <Link href="/">Analytics</Link>{" "}
               </li>
               <li className="active:bg-[#3F3F46]  active:rounded-lg active:w-56 p-2 h-10 active:h-10 ">
@@ -42,8 +42,13 @@ const SideBar = () => {
               </li>
             </ul>
           </div>
-        </div>
-      </div>
+          {/* <div className="">
+          <h1 className="font-normal text-base text-white">Logout</h1>
+        </div> */}
+          </div>
+        
+        
+        
     </>
   );
 };
